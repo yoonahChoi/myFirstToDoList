@@ -6,3 +6,32 @@ body {
 .shadow {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.center {
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-remove, .btn-reset {
+  border-radius: 20%;
+  color: white;
+  border: none;
+}
+.btn-remove {
+  position: absolute;
+  line-height: 20px;
+  top: 9px;
+  right: 13px;
+  padding: 1px 7px;
+  background-color: #e0a7a7;
+
+}
+.btn-reset {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  padding: 2px 5px;
+  background-color: #d3cff8;
+}
+.btn-reset::before {
+  content: 'X';
+}
